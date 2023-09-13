@@ -88,7 +88,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		animation: hideThenRecreate 1s;
 	}
 	div[class*="HomePage-homePageContentScroller-"] {
-		zoom: 0.9;
+		zoom: 0.4;
 		margin-left: -25px;
 	}
 	div[class*="ServerTroubleshootingPane-buttonContainer-"] {
@@ -206,8 +206,8 @@ div[class*="NavBar-container-"] [role="separator"]{
 		font-size: 20px;
 	}
 	.dropdown-poster-toggle .media-poster {
-		width: 15px;
-		height: 15px;
+		width: 5px;
+		height: 5px;
 	}
 	[class*="FullPage-container-"] {
 		font-size: 10px;
@@ -226,7 +226,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		line-height: 40px;
 	}
 	[class*="PageHeader-pageHeader-"] {
-		height: 20px;
+		height: 10px;
 	}
 	[class*="DisclosureArrow-disclosureArrow-"],
 	[class*="CollapsibleText-readMoreArrow-"] {
@@ -238,7 +238,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 	[class*="MetadataPosterTitle-singleLineTitle-"] {
 		height: 18px;
 		font-size: 11px;
-		max-width: 100%;
+		max-width: 80%;
 	}
 	[class*="HubCellHeader-hubCellHeader-"] {
 		padding: 0px 0 0px 5px;
