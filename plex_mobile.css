@@ -126,23 +126,23 @@ div[class*="NavBar-container-"] [role="separator"]{
 		height: auto;
 	}
 	.sessions-list-container {
-		zoom: 0.65;
+		zoom: 0.35;
 	}
 	button[data-qa-id="sidebarLibraryMoreButton"] {
 		display: none;
 	}
 	[class*="NavBarActivityButton-label-"] {
-		top: 20px !important;
+		top: 10px !important;
 	}
 	.nav-dropdown .dropdown-poster-toggle {
-		height: 40px !important;
+		height: 20px !important;
 		padding-left: 10px !important;
 	}
 	.nav-bar {
 		background: rgba(0, 0, 0, 0);
 	}
 	[class*="NavBar-container-"] {
-		height: 40px !important;
+		height: 20px !important;
 		overflow: hidden;
 		max-width: 100vw;
 	}
@@ -160,7 +160,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		font-size: 10px;
 		padding-left: 10px;
 		padding-right: 10px;
-		height: 40px;
+		height: 20px;
 	}
 	[class*="SidebarContainer-sidebarContainer-"] {
 		width: 130px !important;
@@ -177,7 +177,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		padding-left: 0px;
 	}
 	[class*="PageHeader-pageHeader-"]:not([class*="PrimaryPageHeader-pageHeader-"]) {
-		height: 40px !important;
+		height: 20px !important;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -196,7 +196,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 	}
 	.nav-header > li > a {
 		font-size: 13px;
-		line-height: 25px;
+		line-height: 15px;
 		display: inline;
 	}
 	[class*="SidebarMenuButton-sidebarMenuSecondaryTitle-"] {
@@ -206,8 +206,8 @@ div[class*="NavBar-container-"] [role="separator"]{
 		font-size: 20px;
 	}
 	.dropdown-poster-toggle .media-poster {
-		width: 25px;
-		height: 25px;
+		width: 15px;
+		height: 15px;
 	}
 	[class*="FullPage-container-"] {
 		font-size: 10px;
@@ -226,7 +226,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		line-height: 40px;
 	}
 	[class*="PageHeader-pageHeader-"] {
-		height: 40px;
+		height: 20px;
 	}
 	[class*="DisclosureArrow-disclosureArrow-"],
 	[class*="CollapsibleText-readMoreArrow-"] {
