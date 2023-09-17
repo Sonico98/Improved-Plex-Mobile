@@ -67,6 +67,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 	}
 	div[class*="NavBarActivityButton-container-"] div[class*="NavBarActivityButton-labelContainer-"]{
 		display: none;
+		zoom: 0.8;
 	}
 	div[class*="NavBarAccountMenu-disclosure-"]{
 		margin-left: 5px;
@@ -88,7 +89,7 @@ div[class*="NavBar-container-"] [role="separator"]{
 		animation: hideThenRecreate 1s;
 	}
 	div[class*="HomePage-homePageContentScroller-"] {
-		zoom: 0.4;
+		zoom: 1.0;
 		margin-left: -25px;
 	}
 	div[class*="ServerTroubleshootingPane-buttonContainer-"] {
@@ -490,6 +491,10 @@ div[class*="NavBar-container-"] [role="separator"]{
 	div[class*="DirectoryListToolbar-pageHeader-"]
 		div[class*="PageHeaderRight-pageHeaderRight-"] {
 		display: none;
+	}
+	[class*="VirtualListScroller-scroller-"] {
+		position: relative;
+		zoom: 0.8;
 	}
 	[class*="VirtualHubScroller-hubActions-"] {
 		display: none;
